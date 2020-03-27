@@ -1,0 +1,23 @@
+package Test;
+
+import io.restassured.RestAssured;
+import org.testng.annotations.BeforeClass;
+
+public class HttpRequest
+
+{
+
+    public String AccessToken = "eyJhbGciOiJSUzI1NiIsImtpZCI6IjRCOTE3RjBDOENBRkZGOTk1MUJFMTY2OTgxRkQ3REYyOUY3NEVEN0MiLCJ0eXAiOiJhdCtqd3QiLCJ4NXQiOiJTNUZfREl5dl81bFJ2aFpwZ2YxOThwOTA3WHcifQ.eyJuYmYiOjE1ODQ5NDU3MDgsImV4cCI6MTU4NjY3MzcwOCwiaXNzIjoiaHR0cHM6Ly9kZXYxLmJhd2J0eS5jb20vdXNlcm1hbmFnZW1lbnQiLCJhdWQiOlsiSW5zdXJlclF1b3RlLkFQSSIsIkludGVncmF0aW9uU2VydmljZSIsIlVzZXJNYW5hZ2VtZW50LkFQSSJdLCJjbGllbnRfaWQiOiJCYXdidHkuV2ViIiwic3ViIjoiYjg5NDBmODQtMGE1Ny00NmVkLTg1NDctNjIyYWZiMTM4Y2IzIiwiYXV0aF90aW1lIjoxNTg0OTQ1NzA4LCJpZHAiOiJsb2NhbCIsInNjb3BlIjpbIkluc3VyZXJRdW90ZS5BUEkiLCJJbnRlZ3JhdGlvblNlcnZpY2UiLCJVc2VyTWFuYWdlbWVudC5BUEkiXSwiYW1yIjpbInB3ZCJdfQ.mD8DivsCdP5u4ddRra2G3ln0gB32t7eaqsa6HUPmvMZP3hEX_59Nydz5d-A8O7yUqBgVIL8GcBp7maMi4svuG16sPd5pIak5gXLhZkZVglk-vPooWMC-RJTz0V2sF6qTkHWbLA5wkld8F8IZp0xUmlpcWwi2tHC9sE69dfmbCJX2KfsJTaL6uOtxvf-x1swTAksB-_96G3FCnd-QWyHFGQ-WJKPCF5ki5YWJRyrxF-QFzdywOyCAPa45vuMqx2QqwOH8q94pU2wx83gk5udQpWEvfFp5oyoVsbSK-3fKYtff_ex7PsWq75bq5xRgqmmlmlGNtkIvLxHL4911TYvYXw";
+
+
+
+    @BeforeClass
+    public static void init()
+    {
+
+        RestAssured.baseURI="https://dev1.bawbty.com/";
+
+    }
+
+
+}
